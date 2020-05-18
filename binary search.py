@@ -1,6 +1,6 @@
 def binarysearch(list,low, high, value):
     if(low <= high):
-        mid = low + (high - low)//2
+        mid = (low + (high - low))//2
         if(list[mid]==value):
             print("Found at position " +str(mid+1))
             return mid
